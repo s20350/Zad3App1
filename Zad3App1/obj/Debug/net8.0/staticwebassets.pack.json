@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/obj/Debug/net8.0/scopedcss/projectbundle/Zad3App1.bundle.scp.css",
+      "PackagePath": "staticwebassets/Zad3App1.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Zad3App1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Zad3App1.props",
+      "PackagePath": "build\\Zad3App1.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Zad3App1.props",
+      "PackagePath": "buildMultiTargeting\\Zad3App1.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Zad3App1.props",
+      "PackagePath": "buildTransitive\\Zad3App1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Zad3App1/1.0.0": {
+        "dependencies": {
+          "NDbUnit.SqlLite": "1.6.8"
+        },
+        "runtime": {
+          "Zad3App1.dll": {}
+        }
+      },
+      "NDbUnit.Core/1.6.8": {
+        "runtime": {
+          "lib/Net35/NDbUnit.Core.dll": {
+            "assemblyVersion": "1.6.8.36615",
+            "fileVersion": "1.6.8.0"
+          }
+        }
+      },
+      "NDbUnit.SqlLite/1.6.8": {
+        "dependencies": {
+          "NDbUnit.Core": "1.6.8"
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {
+            "assemblyVersion": "1.6.8.36615",
+            "fileVersion": "1.6.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zad3App1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NDbUnit.Core/1.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMlzDWV1S4duukcops4ehpv4V/gdK4jV4DCYzdUjMyZVt+3tLf48Vvmutsan6tEhXaZlf5zkXuCP+Fmvad2YMA==",
+      "path": "ndbunit.core/1.6.8",
+      "hashPath": "ndbunit.core.1.6.8.nupkg.sha512"
+    },
+    "NDbUnit.SqlLite/1.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Grfv8skO/0j7fdxtgzwkDZBncZfmjeAWBJHLiZeDJnryoiX68d4T8UAX2XQYkhfXT/lJUuu1G9qyhW+4q7dgw==",
+      "path": "ndbunit.sqllite/1.6.8",
+      "hashPath": "ndbunit.sqllite.1.6.8.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "NDbUnit.Core/1.6.8": {
+        "type": "package",
+        "compile": {
+          "lib/Net35/NDbUnit.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.Core.dll": {}
+        }
+      },
+      "NDbUnit.SqlLite/1.6.8": {
+        "type": "package",
+        "dependencies": {
+          "NDbUnit.Core": "1.6.8"
+        },
+        "compile": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NDbUnit.Core/1.6.8": {
+      "sha512": "uMlzDWV1S4duukcops4ehpv4V/gdK4jV4DCYzdUjMyZVt+3tLf48Vvmutsan6tEhXaZlf5zkXuCP+Fmvad2YMA==",
+      "type": "package",
+      "path": "ndbunit.core/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/NDbUnit.Core.dll",
+        "ndbunit.core.1.6.8.nupkg.sha512",
+        "ndbunit.core.nuspec"
+      ]
+    },
+    "NDbUnit.SqlLite/1.6.8": {
+      "sha512": "/Grfv8skO/0j7fdxtgzwkDZBncZfmjeAWBJHLiZeDJnryoiX68d4T8UAX2XQYkhfXT/lJUuu1G9qyhW+4q7dgw==",
+      "type": "package",
+      "path": "ndbunit.sqllite/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/NDbUnit.SqlLite.dll",
+        "lib/Net35/NDbUnit.SqlLite.pdb",
+        "ndbunit.sqllite.1.6.8.nupkg.sha512",
+        "ndbunit.sqllite.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "NDbUnit.SqlLite >= 1.6.8"
+    ]
+  },
+  "packageFolders": {
+    "/Users/michalswiostek/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/Zad3App1.csproj",
+      "projectName": "Zad3App1",
+      "projectPath": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/Zad3App1.csproj",
+      "packagesPath": "/Users/michalswiostek/.nuget/packages/",
+      "outputPath": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/michalswiostek/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "NDbUnit.SqlLite": {
+            "target": "Package",
+            "version": "[1.6.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NDbUnit.Core 1.6.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NDbUnit.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NDbUnit.SqlLite 1.6.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NDbUnit.SqlLite",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

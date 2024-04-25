@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Zad3App1.props" />
+</Project>
