@@ -1,11 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "HUBNlguj83YWYoI85TY6Nh8lNvzY509Yl6UzW9h4ctdvYSVgPHSbtlbMFACvsQSEs4VmSDIWlNIjiscqTPP04A==",
+  "dgSpecHash": "yYUxolKGEE2JgDj/zOTN9xMq2adPZRWm9qEcorlUgqCVREUlOhOskWeNiAtdT3iDDOh/041M5Z9y6QWCfZVwhQ==",
   "success": true,
   "projectFilePath": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/Zad3App1.csproj",
   "expectedPackageFiles": [
+    "/Users/michalswiostek/.nuget/packages/microsoft.data.sqlite.core/9.0.0-preview.3.24172.4/microsoft.data.sqlite.core.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.abstractions.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.analyzers.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.relational.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.sqlite.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.sqlite.core.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.caching.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.caching.memory/9.0.0-preview.3.24172.9/microsoft.extensions.caching.memory.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.configuration.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0-preview.3.24172.9/microsoft.extensions.dependencyinjection.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.dependencymodel/9.0.0-preview.3.24172.9/microsoft.extensions.dependencymodel.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.logging/9.0.0-preview.3.24172.9/microsoft.extensions.logging.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.logging.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.options/9.0.0-preview.3.24172.9/microsoft.extensions.options.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.extensions.primitives/9.0.0-preview.3.24172.9/microsoft.extensions.primitives.9.0.0-preview.3.24172.9.nupkg.sha512",
     "/Users/michalswiostek/.nuget/packages/ndbunit.core/1.6.8/ndbunit.core.1.6.8.nupkg.sha512",
-    "/Users/michalswiostek/.nuget/packages/ndbunit.sqllite/1.6.8/ndbunit.sqllite.1.6.8.nupkg.sha512"
+    "/Users/michalswiostek/.nuget/packages/ndbunit.sqllite/1.6.8/ndbunit.sqllite.1.6.8.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.7/sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/sqlitepclraw.core/2.1.7/sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.7/sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.7/sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/system.text.encodings.web/9.0.0-preview.3.24172.9/system.text.encodings.web.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/system.text.json/9.0.0-preview.3.24172.9/system.text.json.9.0.0-preview.3.24172.9.nupkg.sha512"
   ],
   "logs": [
     {
