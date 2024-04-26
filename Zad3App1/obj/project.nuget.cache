@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yYUxolKGEE2JgDj/zOTN9xMq2adPZRWm9qEcorlUgqCVREUlOhOskWeNiAtdT3iDDOh/041M5Z9y6QWCfZVwhQ==",
+  "dgSpecHash": "kjWFBibmrXYhwa6B+lQ/0zcHIIH6dMseNK/qYAhNen+IbF+Pd1QQuJvQTQKXKlMHKVxCNGxQ3h8scpxx3sOBNQ==",
   "success": true,
   "projectFilePath": "/Users/michalswiostek/Desktop/Zad3App1/Zad3App1/Zad3App1/Zad3App1.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.9.0.0-preview.3.24172.4.nupkg.sha512",
     "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.abstractions.9.0.0-preview.3.24172.4.nupkg.sha512",
     "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.analyzers.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.inmemory/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.inmemory.9.0.0-preview.3.24172.4.nupkg.sha512",
     "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.relational.9.0.0-preview.3.24172.4.nupkg.sha512",
     "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.sqlite.9.0.0-preview.3.24172.4.nupkg.sha512",
     "/Users/michalswiostek/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.0-preview.3.24172.4/microsoft.entityframeworkcore.sqlite.core.9.0.0-preview.3.24172.4.nupkg.sha512",

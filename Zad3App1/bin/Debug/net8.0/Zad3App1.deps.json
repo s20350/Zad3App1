@@ -9,6 +9,7 @@
       "Zad3App1/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0-preview.3.24172.4",
+          "Microsoft.EntityFrameworkCore.InMemory": "9.0.0-preview.3.24172.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0-preview.3.24172.4",
           "NDbUnit.SqlLite": "1.6.8"
         },
@@ -50,6 +51,17 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.3.24172.4": {},
+      "Microsoft.EntityFrameworkCore.InMemory/9.0.0-preview.3.24172.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0-preview.3.24172.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.17204"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.0-preview.3.24172.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0-preview.3.24172.4",
@@ -418,6 +430,13 @@
       "sha512": "sha512-O967hNSzxByRR/AXKygnHYyYtfpuORtQS6vR0mbrXmXD0EDbZI3uj6CDvuHN2RzizFqkw19sBWdkF5ckbscNVQ==",
       "path": "microsoft.entityframeworkcore.analyzers/9.0.0-preview.3.24172.4",
       "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.0-preview.3.24172.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/9.0.0-preview.3.24172.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QbPLoUF13TqLkgBZzP+FtGhS0AC/CA8/GiKv35j9D0A7Tcro5mMWSyX3fm7hlf5HvuPcg90ilLCckGuvioGSRw==",
+      "path": "microsoft.entityframeworkcore.inmemory/9.0.0-preview.3.24172.4",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.9.0.0-preview.3.24172.4.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/9.0.0-preview.3.24172.4": {
       "type": "package",

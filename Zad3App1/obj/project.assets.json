@@ -56,6 +56,22 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.3.24172.4": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.InMemory/9.0.0-preview.3.24172.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0-preview.3.24172.4"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.0-preview.3.24172.4": {
         "type": "package",
         "dependencies": {
@@ -571,6 +587,21 @@
         "docs/PACKAGE.md",
         "microsoft.entityframeworkcore.analyzers.9.0.0-preview.3.24172.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/9.0.0-preview.3.24172.4": {
+      "sha512": "QbPLoUF13TqLkgBZzP+FtGhS0AC/CA8/GiKv35j9D0A7Tcro5mMWSyX3fm7hlf5HvuPcg90ilLCckGuvioGSRw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/9.0.0-preview.3.24172.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.9.0.0-preview.3.24172.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/9.0.0-preview.3.24172.4": {
@@ -1206,6 +1237,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.0-preview.3.24172.4",
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0-preview.3.24172.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0-preview.3.24172.4",
       "NDbUnit.SqlLite >= 1.6.8"
     ]
@@ -1248,6 +1280,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.0-preview.3.24172.4, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.0-preview.3.24172.4, )"
           },
